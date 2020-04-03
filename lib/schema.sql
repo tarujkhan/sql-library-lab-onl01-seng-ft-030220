@@ -11,4 +11,4 @@ INSERT INTO characters (id, name, motto, species, author_id) VALUES (1, "Lady", 
 
 CREATE TABLE books (id INTEGER PRIMARY KEY, title TEXT, year DATE, series_id INTEGER);
 
-CREATE TABLE characters(id INTEGER PRIMARY KEY, name TEXT, motto TEXT, species TEXT, author_id INTEGER)
+CREATE TABLE characters(id INTEGER PRIMARY KEY, name TEXT, motto TEXT, species TEXT, author_id INTEGER);
