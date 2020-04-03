@@ -1,1 +1,1 @@
-CREATE TABLE series ()
+CREATE TABLE series (id PRIMARY KEY, title, author_id, subgenre_id)
